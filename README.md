@@ -11,7 +11,7 @@ First you need a file that contains the user information you would like to add t
 ## FTP
 After you are happy that you have a compatible file, you need to upload the file to an FTP server.
 
-Agylia provides an FTP server, secured by using TLS/SSL (FTPS), which you can use to upload your file: 
+Agylia provides an FTP server, secured by using TLS/SSL (FTPS), and SSH (SFTP), which you can use to upload your file:
 
 `ftp-<region>.portal-agylia.com`
 
@@ -56,5 +56,3 @@ In summary, to successfully set-up user imports you need to:
 3. Copy a `user-import.csv` file to the `/uploads` folder (so we process your users)
 
 If you need any help or have any questions please let us know, we're happy to help.
-
-
